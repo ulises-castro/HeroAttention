@@ -2,7 +2,7 @@
   "name": "Hero Attention",
   "description": "Hero Attention",
   "version": "0.0.1",
-  "manifest_version": 2,
+  "manifest_version": 3,
    "icons": {
     "16": "icon.png",
     "32": "icon.png",
@@ -10,7 +10,7 @@
     "128": "icon.png"
   }, 
   "background": {
-    "scripts": ["./background.js"]
+    "service_worker": "./background.js"
   },
   "options_page": "./options.html",
   "browser_action": {
