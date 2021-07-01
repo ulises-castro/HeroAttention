@@ -1,12 +1,14 @@
 {
-  "name": "obj ext",
-  "description": "my ext",
+  "name": "Hero Attention",
+  "description": "Hero Attention",
   "version": "0.1.0",
-  "manifiest_version": 2,
-  "icons": {
-    "16": "./icon.png",
-    "32": "./icon.png",
-  },
+  "manifest_version": 2,
+   "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "64": "icon.png",
+    "128": "icon.png"
+  }, 
   "background": {
     "scripts": ["./background.js"]
   },
